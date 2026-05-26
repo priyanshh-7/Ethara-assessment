@@ -33,19 +33,19 @@ The website should provide a premium modern experience using Framer Motion anima
 
 ## Frontend
 
-- React
-- Framer Motion
-- Tailwind CSS
-- Vidstack Video Player
+- React : It is good for building the LMS UI with reusable course cards, dashboards, auth pages, and profile screens.
+- Framer Motion : It Provides the scroll-based storytelling animations required by the brief.
+- Tailwind CSS : It enables fast, consistent styling for modern cards, and responsive layouts
+- Vidstack Video Player : It provides the lecture playback option for students.
 
 ## Backend
 
-- Node.js
-- Express.js
-- MongoDB
-- JWT Authentication
-- Nodemailer
-- dotenv
+- Node.js : Runs the backend API logic for authentication, courses, payments, and support.
+- Express.js : Structures the REST APIs for all LMS features.
+- MongoDB : Stores users, courses, enrollments, cart items, progress, and support tickets.
+- JWT Authentication : Secures student and educator access across APIs.
+- Nodemailer : Enables forgot-password and email-based support notifications.
+- dotenv : Keeps secrets like DB URL, JWT secret, Razorpay keys, and mail credentials out of code.
 
 ## Payment Integration
 
